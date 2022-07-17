@@ -18,10 +18,6 @@ public class buttonMenager : MonoBehaviour
         anim = arm.GetComponent<Animator>();
     }
 
-    private void Start()
-    {
-        
-    }
     public void StartButton()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -47,13 +43,6 @@ public class buttonMenager : MonoBehaviour
         anim.SetTrigger("Start");
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            
-           
-        }
-    }
+
 
 }

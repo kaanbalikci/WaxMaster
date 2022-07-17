@@ -12,13 +12,4 @@ public class cleanWax : MonoBehaviour
         Destroy(this.gameObject, 2.1f);
     }
 
- 
-    
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Hair"))
-        {
-            Debug.Log("Touch");
-        }
-    }
 }
